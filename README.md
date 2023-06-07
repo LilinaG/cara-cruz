@@ -13,7 +13,7 @@ The Coin Flip game is an interactive web application that simulates flipping a c
 
 ## Screenshots
 
-
+![screeshot](./img/screenshoot.png)
 
 ## Technical Requirements
 
