@@ -7,7 +7,8 @@
 
 body {
     height: 100%;
-    background-color: aquamarine
+    background-color: #C9DAEA
+
 }
 .container {
     background: white;
@@ -65,7 +66,7 @@ body {
 .stats{
     display: flex;
     justify-content: center;
-    color: gray;
+    color: #564256;
     font-weight: 500;
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 139, 253, 0.25);
@@ -83,18 +84,8 @@ body {
     gap: 100px; 
 }
 
-.button {
-    width: 150px;
-    padding: 15px 0;
-    border: none;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-
 #flip-button{
-    background: yellowgreen;
+    background: #564256;
     color: beige;
     width: 150px;
     padding: 15px 0;
@@ -105,13 +96,13 @@ body {
 }
 
 #flip-button:disabled{
-    background: red;
+    background: #F1E3F3;
     border-color: black;
     color: azure;
 
 }
 #reset-button{
-    background: salmon;
+    background: #EE5448;
     color: beige;
     width: 150px;
     padding: 15px 0;

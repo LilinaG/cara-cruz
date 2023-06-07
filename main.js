@@ -1,4 +1,4 @@
-//
+
 let coin = document.querySelector(".coin");
 let flipBtn = document.querySelector("#flip-button");
 let resetBtn = document.querySelector("#reset-button");
@@ -6,9 +6,6 @@ let resetBtn = document.querySelector("#reset-button");
 let heads = 0;
 let tails = 0;
 
-// Almaceno los valores en "i".
-// Math.random es un método de javascript que establece aleatoriamente un
-//valor entre muchos valores.
 
 flipBtn.addEventListener("click", () => {
     let i = Math.floor(Math.random()* 2);
@@ -29,19 +26,18 @@ flipBtn.addEventListener("click", () => {
            tails++;
     }
 
-    setTimeout(updateStats, 3000); // 1 segundo = 1000 milisegundos
+    setTimeout(updateStats, 3000); 
     disableButton();
 
 });
-// Contador
+
 
 function updateStats() {
     document.querySelector("#heads-count").textContent = `Heads: ${heads}`;
     document.querySelector("#tails-count").textContent = `Tails: ${tails}`;
 }
 
-    // Se han acitvado botones de desactivación. Cuando se lanza la moneda, el botón de volteo
-    //entrará en modo desactivación.
+  
 
 function disableButton(){
     flipBtn.disabled = true;
@@ -50,7 +46,6 @@ function disableButton(){
     }, 3000);
 }
 
-// Activamos el Reset button.
 
 resetBtn.addEventListener("click", () => {
     coin.style.animation = "none";
