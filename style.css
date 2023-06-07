@@ -64,16 +64,17 @@ body {
 
 .stats{
     display: flex;
+    justify-content: center;
     color: gray;
     font-weight: 500;
     padding: 20px;
-    margin-top: 55px;
-    margin-bottom: 40px;
     box-shadow: 0 0 20px rgba(0, 139, 253, 0.25);
+    width: 400px;
+    margin: 100px auto;
 }
 
 .stats p:nth-last-child(1){
-    margin-left: 50%;
+    margin-left:50%;
 }
 
 .buttons{
